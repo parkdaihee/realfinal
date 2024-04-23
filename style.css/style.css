@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #bda1a1;
+  
+    background-image: url('해변.jpg');
+    background-size: 100%; /* 배경 이미지를 화면에 꽉 차게 설정 */
+    background-repeat: no-repeat; /* 배경 이미지를 반복하지 않도록 설정 */
+  
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+  
+  .main {
+    color: rgb(0, 0, 0);
+    line-height: 2.5;
+    text-align: left;
+    
+  }
+  
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    height: 70px;
+    top: 0; /* 네비게이션 바를 페이지 상단에 고정 */
+  }
+  
+  
+  
+  .navbar .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navbar ul li {
+    margin-left: 20px;
+  }
+  
+  .navbar .logo {
+    font-size: x-large;
+    font-weight: bold;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    border-bottom: 2px #fff solid;
+    color: #ddd;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin: 5px 10px;
+    font-size: large;
+    font-weight: bold;
+    background-color: lightgrey;
+    /* border-radius: 10px;
+    border-width: 0px; */
+  }
+  
+  button:hover {
+    color: red;
+    background-color: yellow;
+  }
+  
+  .flower{
+  background-color: cover;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px; /* 이미지의 최대 높이를 300px로 지정 */
+    margin-top: 20px; /* 이미지 위에 여백 추가 */
+  }
+  .container {
+      text-align: center; /* 내부 요소를 수평으로 가운데 정렬합니다 */
+  }
+  
+  .shape {
+    width: 250px; /* 너비를 조정 */
+    height: 200px; /* 높이를 조정 */
+    background-size: cover;
+    background-image: url('/1.png');
+    background-position: center;
+    border: 2px solid #000;
+    border-radius: 0;
+    display: inline-block;
+  }
+  
+  .shape.center {
+    background-image: url('/2.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .shape.right {
+    background-image: url('/3.png');
+    background-size: cover;
+    background-position: center;
+  }
+  /* 왼쪽 정렬 */
+  .shape.left {
+      margin-right: 20px; /* 도형 사이의 간격을 설정합니다 */
+      color: white;
+  }
+  
+  /* 가운데 정렬 */
+  .shape.center {
+      margin: 0 20px; /* 도형 사이의 간격을 설정합니다 */
+      color: white;
+  }
+  
+  /* 오른쪽 정렬 */
+  .shape.right {
+      margin-left: 20px; /* 도형 사이의 간격을 설정합니다 */
+      color: white;
+  }
+  
+ 
